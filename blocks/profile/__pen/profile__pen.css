@@ -1,0 +1,29 @@
+.profile__pen {
+    border: 1px solid #FFFFFF;
+    background: url(../../../images/redact.svg) center center no-repeat;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    transition: .3s all ease;
+    margin: 8px 0 0 17px;
+}
+
+.profile__pen:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+@media screen and (max-width: 720px) {
+    .profile__pen {
+        margin: 5px 0 0 5px;
+        width: 20px;
+        height: 20px;
+    }
+}
+@media screen and (max-width: 617px) {
+    .profile__pen {
+        width: 18px;
+        height: 18px;
+        
+         
+    }
+}
