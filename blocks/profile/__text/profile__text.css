@@ -1,10 +1,12 @@
 .profile__text {
     display: flex;
     flex-wrap: wrap;
-    align-items: baseline;
+    align-items: flex-start;
     margin: 0 0 0 26px;
     max-width: 55%;
     white-space: nowrap;
+    flex-direction: column;
+
     
 }
 
